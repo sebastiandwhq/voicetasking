@@ -1,0 +1,16 @@
+name = "voicetasking-api"
+main = "voicetasking-index.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "voicetasking-master"
+database_id = "3a09bc10-d18a-437e-81e7-5562d5015527"
+
+[[r2_buckets]]
+binding = "ATTACHMENTS"
+bucket_name = "voicetasking-attachments"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "8b8b07f41af546a3ba95bb4a73dcbeb2"
